@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Drodown-Memu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <meta name="veiwport" content="width=device-width,intial-scale=1">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+<h1 class="con">Bootstrap-dropdown-Lists</h1>
+<div class="dropdown">
+  <button type="button" name="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Hell0! Click-Me</button>
+  <ul class="dropdown-menu">
+    <li>
+      <a class="dropdown-item" href="#">Hi</a>
+      <a class="dropdown-item" href="#">This is</a>
+      <a class="dropdown-item" href="#">Nithin</a>
+    </li>
+  </ul>
+</div
+
+<hr>
+<h1>dropdown-divider</h1>
+<div class="dropdown">
+  <button type="button" name="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Hell0! Click-Me</button>
+  <ul class="dropdown-menu">
+    <li>
+      <a class="dropdown-item" href="#">Hi</a></li>
+    <li> <a class="dropdown-item" href="#">This is</a>  </li>
+    <li> <a class="dropdown-item" href="#">Nithin</a>  </li>
+      <li <hr class="dropdown-divider">     </li>
+<li> <a class="dropdown-item" href="#">a student</a>  </li>
+
+  </ul>
+</div>
+<hr>
+<h1>Dropdown-Headers</h1>
+<h3>Use .dropdown-header claas</h3>
+<div class="dropdown">
+  <button type="button" name="button" class="btb btn-primary dropdown-toggle" data-bs-toggle="dropdown">hello Click-Me!</button>
+  <ul class="dropdown-menu">
+    <li>
+
+  <h5 class="dropdown-header">1st Header</h5></li>
+    <li> <a class="dropdown-item" href="#">This is</a>  </li>
+    <li> <a class="dropdown-item" href="#">Nithin</a>  </li>
+      <li <hr class="dropdown-divider">     </li>
+      <li>
+
+      <h5 class="dropdown-header">2nd Header</h5></li>
+
+<li> <a class="dropdown-item" href="#">a student</a>  </li>
+
+  </ul>
+
+
+</div>
+<hr>
+<h1>Dropdown-Active-Disabled</h1>
+<h3>Use .active and .disabled claases</h3>
+<div class="dropdown">
+  <button type="button" name="button" class="btb btn-primary dropdown-toggle" data-bs-toggle="dropdown">hello Click-Me!</button>
+  <ul class="dropdown-menu">
+    <li><h5 class="dropdown-header">1st Header</h5></li>
+    <li><a class="dropdown-item" href="#">This is</a></li>
+    <li><a class="dropdown-item active" href="#">Nithin</a></li>
+    <li<hr class="dropdown-divider"></li>
+    <li><h5 class="dropdown-header">2nd Header</h5></li>
+<li> <a class="dropdown-item disabled" href="#">a student</a></li>
+  </ul>
+</div>
+<hr>
+<h1>Dropdown-Position</h1>
+<h3>Use .dropend .dropstart</h3>
+<div class="row">
+
+<div class="col-lg-6 jk">
+
+
+<div class="dropdown dropstart">
+  <button type="button" name="button" class="btb btn-primary dropdown-toggle" data-bs-toggle="dropdown">hello Click-Me!</button>
+  <ul class="dropdown-menu">
+    <li><h5 class="dropdown-header">1st Header</h5></li>
+    <li><a class="dropdown-item" href="#">This is</a></li>
+    <li><a class="dropdown-item active" href="#">Nithin</a></li>
+    <li<hr class="dropdown-divider"></li>
+    <li><h5 class="dropdown-header">2nd Header</h5></li>
+<li> <a class="dropdown-item disabled" href="#">a student</a></li>
+  </ul>
+</div>
+</div>
+<div class="col-lg-6">
+
+
+<div class="dropdown dropend">
+  <button type="button" name="button" class="btb btn-primary dropdown-toggle" data-bs-toggle="dropdown">hello Click-Me!</button>
+  <ul class="dropdown-menu">
+    <li><h5 class="dropdown-header">1st Header</h5></li>
+    <li><a class="dropdown-item" href="#">This is</a></li>
+    <li><a class="dropdown-item active" href="#">Nithin</a></li>
+    <li<hr class="dropdown-divider"></li>
+    <li><h5 class="dropdown-header">2nd Header</h5></li>
+<li> <a class="dropdown-item disabled" href="#">a student</a></li>
+  </ul>
+  </div>
+  </div>
+</div>
+<hr>
+<h1>Dropdown-menu-Right</h1>
+<h3>To right-align the dropdown menu, add the .dropdown-menu-end class to the element with .dropdown-menu</h3>
+
+
+<div class="dropdown dropdown-menu-end">
+<button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+Wide dropdown button to demonstrate this example
+</button>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="#">Link 1</a></li>
+<li><a class="dropdown-item" href="#">Link 2</a></li>
+<li><a class="dropdown-item" href="#">Link 3</a></li>
+</ul>
+</div>
+<hr>
+<h1>Dropup</h1>
+<h3>If you want the dropdown menu to expand upwards instead of downwards, change the <div> element with class="dropdown" to "dropup"</h3>
+  <div class="dropup">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+        Dropup button
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Link 1</a></li>
+        <li><a class="dropdown-item" href="#">Link 2</a></li>
+        <li><a class="dropdown-item" href="#">Link 3</a></li>
+      </ul>
+    </div>
+  </div>
+  <hr >
+  <h1>Dropdown Text</h1>
+  <h3>The .dropdown-item-text class is used to add plain text to a dropdown item, or used on links for default link styling.</h3>
+  <div class="dropdown">
+    <button type="button" class="btb btn-primary drowdown-toggle" data-bs-toggle="dropdown">Dropdown</button>
+    <ul class="dropdown-menu">
+      <li><a class="drowdown-item" href="#">link 1</a>
+        <li><a class="drowdown-item" href="#">link 1</a>
+          <li><a class="drowdown-item" href="#">link 1</a>
+            <li><span class="drowdown-item-text">Hello</span>
+
+      </li>
+    </ul>
+
+  </div>
+  <hr>
+  <h1>Grouped Buttons with a Dropdown</h1>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary" >jk</button>
+    <button type="button" class="btn btn-success" >jk</button>
+    <div class="btn-group">
+      <button type="button" class="btb btn-primary drowdown-toggle" data-bs-toggle="dropdown">Dropdown</button>
+      <ul class="dropdown-menu">
+        <li><a class="drowdown-item" href="#">link 1</a>
+          <li><a class="drowdown-item" href="#">link 1</a>
+            <li><a class="drowdown-item" href="#">link 1</a>
+              <li><span class="drowdown-item-text">Hello</span>
+
+        </li>
+      </ul>
+
+    </div>
+  </div>
+    <hr>
+    <h1>Vertical Button Group w/ Dropdown</h1>
+    <div class="btn-group-vertical">
+      <button type="button" class="btn btn-primary" >jk</button>
+      <button type="button" class="btn btn-success" >jk</button>
+      <div class="btn-group-vertical">
+        <button type="button" class="btb btn-primary drowdown-toggle" data-bs-toggle="dropdown">Dropdown</button>
+        <ul class="dropdown-menu">
+          <li><a class="drowdown-item" href="#">link 1</a>
+            <li><a class="drowdown-item" href="#">link 1</a>
+              <li><a class="drowdown-item" href="#">link 1</a>
+                <li><span class="drowdown-item-text">Hello</span>
+
+  </div>
+</div>
+  </body>
+</html>

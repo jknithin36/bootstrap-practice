@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cards</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <meta name="veiwport" content="width=device-width,intial-scale=1">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+<h1 class="con">Boot-strap-Cards</h1>
+<h3>A card in Bootstrap 5 is a bordered box with some padding around its content. It includes options for headers, footers, content, colors, etc</h3>
+<h3>A basic card is created with the .card class, and content inside the card has a .card-body class</h3>
+<div class="card">
+  <div class="card-header">
+    Nithin
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      Nithin
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-footer">
+        Nithin
+        </div>
+      </div>
+
+      <hr>
+      <h1>Contextual Cards</h1>
+      <h3>To add a background color the card, use contextual classes (.bg-primary, .bg-success, .bg-info, .bg-warning, .bg-danger, .bg-secondary, .bg-dark and .bg-light</h3>
+      <div class="card">
+        <div class="card-body">
+          Nithin
+          </div>
+        </div>
+        <div class="card bg-danger text-whie">
+          <div class="card-body">
+            Nithin
+            </div>
+          </div>
+          <div class="card bg-warning text-white">
+            <div class="card-body">
+              Nithin
+              </div>
+            </div>
+            <div class="card bg-success text-white">
+              <div class="card-body">
+                Nithin
+                </div>
+              </div>
+              <hr>
+              <h1>Titles, text, and links</h1>
+              <h3>Use .card-title to add card titles to any heading element. The .card-text class is used to remove bottom margins for a <p> element if it is the last child (or the only one) inside .card-body. The .card-link class adds a blue color to any link, and a hover effect</h3>
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Hello!</h4>
+                    <p class="card-text">This is Nithin</P>
+                      <a href="#" class="card-link ">Contact-Me</a>
+                  </div>
+                </div>
+                <hr>
+                <h1>Cards-Images</h1>
+                <h3>Add .card-img-top or .card-img-bottom to an <img> to place the image at the top or at the bottom inside the card. Note that we have added the image outside of the .card-body to span the entire width</h3>
+                <div class="card" style="width:400px">
+  <img class="card-img-top" src="images/nani.jpg" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">Bootstrap</h4>
+    <p class="card-text">Front-end Frame work</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>
+<hr>
+<h1>Card Image Overlays</h1>
+<h3>Turn an image into a card background and use .card-img-overlay to add text on top of the image</h3>
+<div class="card" style="width:400px">
+<img class="card-img-top" src="images/nani.jpg" alt="Card image">
+<div class="card-img-overlay">
+<h4 class="card-title">Bootstrap</h4>
+<p class="card-text">Front-end Frame work</p>
+<a href="#" class="btn btn-primary">See Profile</a>
+</div>
+</div>
+  </body>
+</html>

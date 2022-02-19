@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Navbar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <meta name="veiwport" content="width=device-width,intial-scale=1">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+<h1 class="con">NAVBARS</h1>
+<h3><pre>A standard navbar can be created by using .navbar class followed by .navbar-expand-sm/md/lg/xxl/xl
+to addd links use either ul element or a div class with .navbar-nav class and in li element use nav-item and in a element use nav-link
+</pre>
+</h3>
+<nav class="navbar navbar-expand-sm bg-light">
+  <div class="container-fluid bablu">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link 1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link 2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link 3</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<hr>
+<h1>verical navbar</h1>
+<h3>Remove navbar-expand-*</h3>
+<nav class="navbar  bg-light">
+  <div class="container-fluid bablu">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link 1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link 2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link 3</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<hr>
+<h1>Centered Navbar</h1>
+<h3>use .justify-content center</h3>
+
+<nav class="navbar navbar-expand-sm bg-light justify-content-center">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link 1</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link 2</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link 3</a>
+    </li>
+  </ul>
+</nav>
+<hr>
+<h1>Colored Navbar</h1>
+<h3>use bg-primary etc...</h3>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+<ul class="navbar-nav">
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link 1</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link 2</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link 3</a>
+  </li>
+</ul>
+</nav>
+<h1>Brand / Logo</h1>
+<h3>The .navbar-brand class is used to highlight the brand/logo/project name of your page</h3>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" class="href">
+    LOGO
+  </a>
+<ul class="navbar-nav">
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link 1</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link 2</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link 3</a>
+  </li>
+</ul>
+</nav>
+<hr>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+    <a class="navbar-brand" href="#">
+      <img src="images/nani.jpg" alt="Logo" style="width:40px;" class="rounded-pill">
+    </a>
+
+</nav>
+<h1>Navbart-Text</h1>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <span class="navbar-text">Navbar text</span>
+</nav>
+<h1>Logo with Button</h1>
+<h3>To create a collapsible navigation bar, use a button with class="navbar-toggler", data-bs-toggle="collapse" and data-bs-target="#thetarget". Then wrap the navbar content (links, etc) inside a <div> element with class="collapse navbar-collapse", followed by an id that matches the data-bs-target of the button: "thetarget</h3>
+
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Logo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <h1>Navbar With Dropdown</h1>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Logo</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Dropdown</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Link</a></li>
+            <li><a class="dropdown-item" href="#">Another link</a></li>
+            <li><a class="dropdown-item" href="#">A third link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<hr>
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+<div class="container-fluid">
+<a class="navbar-brand" href="javascript:void(0)">Logo</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="mynavbar">
+<ul class="navbar-nav me-auto">
+<li class="nav-item">
+  <a class="nav-link" href="javascript:void(0)">Link</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="javascript:void(0)">Link</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="javascript:void(0)">Link</a>
+</li>
+</ul>
+<form class="d-flex">
+<input class="form-control me-2" type="text" placeholder="Search">
+<button class="btn btn-primary" type="button">Search</button>
+</form>
+</div>
+</div>
+</nav>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+body{
+font-family: 'Dongle', sans-serif;
+}
+.con{
+  text-align: center;
+  color: #4C0027;
+}
+
+
+.container{
+  background-color: #FFE162;
+}
+
+}
+.container, .container-fluid p{
+  text-align: center;
+}
+hr{
+
+
+  color: green;
+
+
+}
+
+.grid-image{
+
+  width: 100%;
+  height : 80%;
+}
+.den{
+  border: solid 1px red;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+.nithin{
+  text-decoration: none;
+}
+
+.jk{
+  text-align: center;
+}

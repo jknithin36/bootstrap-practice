@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Navs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <meta name="veiwport" content="width=device-width,intial-scale=1">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <h1 class="con">Navs</h1>
+    <h1> Nav Menu</h1>
+    <h3> use .nav .nav-item .nav-class </h3>
+
+      <ul class="nav">
+        <li class="nav-item">
+          <a href="#" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">About us</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Login</a>
+        </li>
+        <li class="nav-item ">
+          <a href="#" class="nav-link disabled">Home</a>
+        </li>
+      </ul>
+      <hr>
+    <h1>Aligned Nav</h1>
+    <h3> use .justify-content-center and .justify-content-end</h3>
+
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Login</a>
+            </li>
+            <li class="nav-item ">
+              <a href="#" class="nav-link disabled">Home</a>
+            </li>
+          </ul>
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Login</a>
+            </li>
+            <li class="nav-item ">
+              <a href="#" class="nav-link disabled">Home</a>
+            </li>
+          </ul>
+          <hr>
+<h1>Vertical Nav</h1>
+<ul class="nav flex-column">
+  <li class="nav-item">
+    <a href="#" class="nav-link">Home</a>
+  </li>
+  <li class="nav-item">
+    <a href="#" class="nav-link">About us</a>
+  </li>
+  <li class="nav-item">
+    <a href="#" class="nav-link">Login</a>
+  </li>
+  <li class="nav-item ">
+    <a href="#" class="nav-link disabled">Home</a>
+  </li>
+</ul>
+<h3> use .flex-column</h3>
+<hr>
+<h1>Tabs</h1>
+<h3>Turn the nav menu into navigation tabs with the .nav-tabs class. Add the .active class to the active/current link. If you want the tabs to be togglable, see the last example on this page.</h3>
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link" href="#" active>Home</a>
+    <li class="nav-item">
+      <a href="#" class="nav-link">About us</a>
+    </li>
+    <li class="nav-item">
+      <a href="#" class="nav-link">Login</a>
+    </li>
+    <li class="nav-item ">
+      <a href="#" class="nav-link disabled">Home</a>
+
+  </li>
+</ul>
+<hr>
+<h1>Nav-pills</h1>
+<h3>Turn the nav menu into navigation pills with the .nav-pills class. If you want the pills to be togglable, see the last example on this page.
+
+</h3>
+
+<ul class="nav nav-pills">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#">Disabled</a>
+  </li>
+</ul>
+<hr>
+<h1>Justified Tabs/pills</h1>
+<h3>Justify the tabs/pills with the .nav-justified class (equal width):</h3>
+<ul class="nav nav-pills nav-justified">
+   <li class="nav-item">
+     <a class="nav-link active" href="#">Active</a>
+   </li>
+   <li class="nav-item">
+     <a class="nav-link" href="#">Link</a>
+   </li>
+   <li class="nav-item">
+     <a class="nav-link" href="#">Link</a>
+   </li>
+   <li class="nav-item">
+     <a class="nav-link disabled" href="#">Disabled</a>
+   </li>
+ </ul><br>
+
+ <p>Justified tabs:</p>
+ <ul class="nav nav-tabs nav-justified">
+   <li class="nav-item">
+     <a class="nav-link active" href="#">Active</a>
+   </li>
+   <li class="nav-item">
+     <a class="nav-link" href="#">Link</a>
+   </li>
+   <li class="nav-item">
+     <a class="nav-link" href="#">Link</a>
+   </li>
+   <li class="nav-item">
+     <a class="nav-link disabled" href="#">Disabled</a>
+   </li>
+ </ul>
+ <hr>
+ <h1>Tabs with Dropdown</h1>
+ <ul class="nav nav-tabs nav-justified">
+   <li class="nav-item">
+     <a class="nav-link" href="#" active>Home</a>
+   </li>
+   <li class="dropdown nav-item">
+     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" >Products</a>
+     <ul class="dropdown-menu">
+       <li> <a class="dropdown-item" href="#">Mask</a></li>
+       <li><a href="#" class="dropdown-item">Sanitizer</a></li>
+       <li><a href="#"class="dropdown-item">Soaps</a></li>
+
+     </ul>
+     <li class="nav-item"><a href="#" class="nav-link">Aboutus</a> </li>
+
+
+ </ul>
+ <hr>
+ <h1>Pills with Dropdown</h1>
+ <ul class="nav nav-pills">
+   <li class="nav-item">
+     <a class="nav-link active" href="#">Active</a>
+   </li>
+   <li class="nav-item dropdown">
+     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Dropdown</a>
+     <ul class="dropdown-menu">
+       <li><a class="dropdown-item" href="#">Link 1</a></li>
+       <li><a class="dropdown-item" href="#">Link 2</a></li>
+       <li><a class="dropdown-item" href="#">Link 3</a></li>
+     </ul>
+   </li>
+   <li class="nav-item">
+     <a class="nav-link" href="#">Link</a>
+   </li>
+   <li class="nav-item">
+     <a class="nav-link disabled" href="#">Disabled</a>
+   </li>
+ </ul>
+ <hr>
+ <h1>Dynamics Tabs</h1>
+ <h3><pre>To make the tabs toggleable, add the data-toggle="tab" attribute to each link. Then add a .tab-pane class with a unique ID for every tab and wrap them inside a <div> element with class .tab-content.
+
+If you want the tabs to fade in and out when clicking on them, add the .fade class to .tab-pane</pre></h3>
+<ul class="nav nav-tabs" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" data-bs-toggle="tab" href="#home">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-bs-toggle="tab" href="#menu1">Menu 1</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-bs-toggle="tab" href="#menu2">Menu 2</a>
+  </li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+  <div id="home" class="container tab-pane active"><br>
+    <h3>HOME</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  </div>
+  <div id="menu1" class="container tab-pane fade"><br>
+    <h3>Menu 1</h3>
+    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+  <div id="menu2" class="container tab-pane fade"><br>
+    <h3>Menu 2</h3>
+    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+  </div>
+</div>
+<hr>
+<h1>Dynamic Pills</h1>
+<h3>he same code applies to pills; only change the data-toggle attribute to data-toggle="pill"</h3>
+<ul class="nav nav-pills" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" data-bs-toggle="pill" href="#hom">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-bs-toggle="pill" href="#menu">Menu 1</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-bs-toggle="pill" href="#men2">Menu 2</a>
+  </li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+  <div id="hom" class="container tab-pane active"><br>
+    <h3>HOME</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  </div>
+  <div id="menu" class="container tab-pane fade"><br>
+    <h3>Menu 1</h3>
+    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+  <div id="men2" class="container tab-pane fade"><br>
+    <h3>Menu 2</h3>
+    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+  </div>
+</div>
+  </body>
+</html>
